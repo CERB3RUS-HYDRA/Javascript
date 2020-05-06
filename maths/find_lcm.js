@@ -3,36 +3,36 @@
     license: GPL-3.0 or later
 
     Modified from:
-        https://github.com/TheAlgorithms/Python/blob/master/maths/find_lcm.py
+        https://github.com/TheAlgorithms/Python/blob/master/maths/findLcm.py
 
     More about LCM:
         https://en.wikipedia.org/wiki/Least_common_multiple
 */
 
-"use strict";
+'use strict'
 
 // Find the LCM of two numbers.
-function find_lcm(num_1, num_2) {
-    var max_num;
-    var lcm;
-    // Check to see whether num_1 or num_2 is larger.
-    if (num_1 > num_2) {
-        max_num = num_1;
-    } else {
-        max_num = num_2;
-    }
-    lcm = max_num;
+function findLcm (num1, num2) {
+  var maxNum
+  var lcm
+  // Check to see whether num1 or num2 is larger.
+  if (num1 > num2) {
+    maxNum = num1
+  } else {
+    maxNum = num2
+  }
+  lcm = maxNum
 
-    while (true) {
-        if ((lcm % num_1 === 0) && (lcm % num_2 === 0)) {
-            break;
-        }
-        lcm += max_num;
+  while (true) {
+    if ((lcm % num1 === 0) && (lcm % num2 === 0)) {
+      break
     }
-    return lcm;
+    lcm += maxNum
+  }
+  return lcm
 }
 
-// Run `find_lcm` Function
-var num_1 = 12;
-var num_2 = 76;
-console.log(find_lcm(num_1, num_2));
+// Run `findLcm` Function
+var num1 = 12
+var num2 = 76
+console.log(findLcm(num1, num2))

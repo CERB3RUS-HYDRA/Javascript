@@ -14,6 +14,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
+        npm install standard --save-dev
+        npx standard
         cd linear-algebra-javascript
         npm ci
         npm run build --if-present

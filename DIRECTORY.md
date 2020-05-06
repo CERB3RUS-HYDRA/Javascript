@@ -26,6 +26,7 @@
     * [singlylinklist](https://github.com/TheAlgorithms/Javascript/blob/master/Data%20Structures/Linked%20List/singlylinklist.js)
   * Queue
     * [Queue](https://github.com/TheAlgorithms/Javascript/blob/master/Data%20Structures/Queue/Queue.js)
+    * [QueueUsing2Stacks](https://github.com/TheAlgorithms/Javascript/blob/master/Data%20Structures/Queue/QueueUsing2Stacks.js)
   * Stack
     * [Stack](https://github.com/TheAlgorithms/Javascript/blob/master/Data%20Structures/Stack/Stack.js)
   * Tree
@@ -47,7 +48,10 @@
   * [DijkstraSmallestPath](https://github.com/TheAlgorithms/Javascript/blob/master/maths/DijkstraSmallestPath.js)
   * [factorial](https://github.com/TheAlgorithms/Javascript/blob/master/maths/factorial.js)
   * [find lcm](https://github.com/TheAlgorithms/Javascript/blob/master/maths/find_lcm.js)
+  * [FindHcf](https://github.com/TheAlgorithms/Javascript/blob/master/maths/FindHcf.js)
   * [graph](https://github.com/TheAlgorithms/Javascript/blob/master/maths/graph.js)
+  * [Palindrome](https://github.com/TheAlgorithms/Javascript/blob/master/maths/Palindrome.js)
+  * [pascalTriangle](https://github.com/TheAlgorithms/Javascript/blob/master/maths/pascalTriangle.js)
 
 ## Search
   * [binarySearch](https://github.com/TheAlgorithms/Javascript/blob/master/Search/binarySearch.js)
